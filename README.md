@@ -3,7 +3,7 @@
 This is a basic AI that I have made.
 I hope you find it helpful for creating other things.
 
-# Credits
+# Special Thanks
 
 Thank you to the people at nltk.org, here is there book:
 
