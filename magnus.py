@@ -1,3 +1,4 @@
+#Made by MagnusSEE
 import os
 from neuralintents import GenericAssistant
 
