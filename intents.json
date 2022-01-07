@@ -70,8 +70,23 @@
     
     {"tag": "characteristic_properties_check",
     "patterns": ["Is boiling point a characterisitc property?","Is melting point a characteristic property?","Is freezing point a characteristic property?","What are some characteristic properties?","What are some examples of characteristic properties?"],
-    "responses": ["Some examples of characteristic properties include: boiling point, melting point, color, density, and freezing point"]}
-        
+    "responses": ["Some examples of characteristic properties include: boiling point, melting point, color, density, and freezing point"]},
+     
+    {"tag": "quantative_data_defenition",
+    "patterns": ["What is a quantative observation?","What is the defenition of a quantative observation?","What is the scientific defenition of a quantative observation?"],
+    "responses": ["Quantative Observation - A observation based on numerical or statistical attributes"]},
+            
+    {"tag": "qualitative_data_defenition",
+    "patterns": ["What is a qualitative observation?","What is the defenition of a qualitative observation?","What is the scientific defenition of a qualitative observation?"],
+    "responses": ["Qualitative Observation - A observation using the five senses"]},
+
+    {"tag": "bot_how_doing",
+    "patterns": ["How are you doing?","Is everything ok?","Is everything fine?","How is everything?","How are you?"],
+    "responses": ["How are YOU?","Fine","Good","Great","Good, how are you?","Great how are you?","Fine, how are you?"]},
+
+    {"tag": "bot_how_doing_response",
+    "patterns": ["Fine","Great","Good","Wonderful"],
+    "responses": ["Good","Great"]}
 
 
 
