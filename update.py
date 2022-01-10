@@ -8,10 +8,17 @@ system = platform.system()
 def cmd(arg):
     os.system(str(arg))
 
-#git must be installed for this to work
-print('Magnus is installed in the Documents folder under Magnus')
+#Clear console screen
 if system == 'Linux' or system == 'Darwin':
-    cmd('cd ~/Documents && mkdir Magnus && cd Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
+    cmd('clear')
+else:
+    cmd('cls')
+
+#git must be installed for this to work
+print('Updater only works if Magnus is installed in the Desktop folder under the folder Magnus\n')
+input('This update requires git\tPress Enter to Continue')
+if system == 'Linux' or system == 'Darwin':
+    cmd('cd ~/Desktop && mkdir -p Magnus && cd Magnus && rm -rf MagnusAI && git clone https://github.com/MagnusSee/MagnusAI.git')
     
 if system == 'Windows':
-    cmd('cd C:\Users\%UserProfile%\Documents && mkdir Magnus && cd Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
+    cmd('cd C:\\Users\\%UserProfile%\\Desktop && mkdir -p Magnus && cd Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
