@@ -16,7 +16,7 @@ else:
 
 #git must be installed for this to work
 print('Updater only works if Magnus is installed in the Desktop folder under the folder Magnus\n')
-input('This update requires git\tPress Enter to Continue')
+input('This updater requires git\tPress Enter if you wish to continue and you have git')
 if system == 'Linux' or system == 'Darwin':
     cmd('cd ~/Desktop && mkdir -p Magnus && cd Magnus && rm -rf MagnusAI && git clone https://github.com/MagnusSee/MagnusAI.git')
     
