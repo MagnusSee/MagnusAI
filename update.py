@@ -21,4 +21,4 @@ if system == 'Linux' or system == 'Darwin':
     cmd('cd ~/Desktop && mkdir -p Magnus && cd Magnus && rm -rf MagnusAI && git clone https://github.com/MagnusSee/MagnusAI.git')
     
 if system == 'Windows':
-    cmd('cd C:\\Users\\%UserProfile%\\Desktop && mkdir -p Magnus && cd Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
+    cmd('cd C:\\Users\\%UserProfile%\\Desktop && rmdir /Q /S Magnus && mkdir Magnus && cd Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
