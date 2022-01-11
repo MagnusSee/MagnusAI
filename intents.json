@@ -69,8 +69,8 @@
     "responses": ["Characteristic Property - A property of a substance that does not depend on size or shape"]},
     
     {"tag": "characteristic_properties_check",
-    "patterns": ["Is boiling point a characterisitc property?","Is melting point a characteristic property?","Is freezing point a characteristic property?","What are some characteristic properties?","What are some examples of characteristic properties?"],
-    "responses": ["Some examples of characteristic properties include: boiling point, melting point, color, density, and freezing point"]},
+    "patterns": ["Is boiling point a characterisitc property?","Is melting point a characteristic property?","Is freezing point a characteristic property?","What are some characteristic properties?","What are some examples of characteristic properties?, Is solubility a characteristic property?"],
+    "responses": ["Some examples of characteristic properties include: boiling point, melting point, color, density, freezing point, and solubility"]},
      
     {"tag": "quantative_data_defenition",
     "patterns": ["What is a quantative observation?","What is the defenition of a quantative observation?","What is the scientific defenition of a quantative observation?"],
@@ -86,7 +86,50 @@
 
     {"tag": "bot_how_doing_response",
     "patterns": ["Fine","Great","Good","Wonderful"],
-    "responses": ["Good","Great"]}
+    "responses": ["Good","Great"]},
+
+    {"tag": "solvent_def",
+    "patterns": ["What is a solvent?","What is the defenition of a solvent?","What is the scientific defenition of a solvent?"],
+    "responses": ["The Solvent is the liquid that the solute (the material that disolves) disolves in"]},
+
+    {"tag": "solute_def",
+    "patterns": ["What is a solute?","What is the defenition of a solute?","What is the scientific defenition of a solute?"],
+    "responses": ["The solute is the material that disolves in the solvent (the liquid that the solute disolves in)"]},
+
+    {"tag": "solution_def",
+    "patterns": ["What is a solution?","What is the defenition of a solution?","What is the scientific defenition of a solution?"],
+    "responses": ["A solute dissolving in a solvent makes a solution (ask me what a solute or solvent means if you don't know)"]},
+
+    {"tag": "saturated_solution_def",
+    "patterns": ["What is a saturated solution?","What is the defenition of a saturated solution?","What is the scientific defenition of a saturated solution?"],
+    "responses": ["Saturated solution - a solution in which no more solute (thing that dissolves) can dissolve"]},
+    
+    {"tag": "units_for_concentration",
+    "patterns": ["What are the units for concentration?","What are the units for concentration in science?"],
+    "responses": ["The units for concentration are g/cm3 = mass of solute/volume of solvent. Unlike density mass and volume refer to different substances"]},
+
+    {"tag": "difference_between_density_and_concentration",
+    "patterns": ["What is the difference between concentration and density?","What's the difference between concentration and density?"],
+    "responses": ["Unlike density, mass and volume (in the units for concentration) refer to different substances"]},
+
+    {"tag": "solubility_def",
+    "patterns": ["What is solubility?","What is the scientific defenition of solubility","What is the defenition of a solubility?"],
+    "responses": ["Solubility is the concentration of a saturated solution"]},
+
+    {"tag": "concentration_def",
+    "patterns": ["What is concentration?","What is the scientific defenition of concentration?","What is the defenition of a concentration??"],
+    "responses": ["Concentration is how much solute (in grams) is in 1cm3 of solvent"]},
+
+    {"tag": "difference_between_solubility_and_concentration",
+    "patterns": ["What is the difference between solubility and concentration?","What is the differnce between concentration and solubility?","What's the diffrence between concentration and solubility?","What's the difference between solubility and concentration?"],
+    "responses": ["Concentration is used for any solution while solubility refers to the concentration of a concentrated solution"]},
+
+    {"tag": "units_for_solubility",
+    "patterns": ["What are the units for solubility?","What are the units for solubility in science?"],
+    "responses": ["The units for solubility are grams (of solute)/100cm3 (of solvent) to get solubility you can take the measurement of concentration and multiply the top and bottom by 100"]}
+
+
+
 
 
 
