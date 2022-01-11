@@ -13,4 +13,4 @@ See: https://amzn.to/3K0Nuvi
 # Troubleshooting
 
 While running update.py, if you see that git is not recognized as a system command then add your git install to PATH
-See: https://bit.ly/3f90jFA for more details
+See: https://bit.ly/3f90jFA for more details. Also make sure that update.py is outside the Magnus directory
