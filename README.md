@@ -8,4 +8,9 @@ I hope you find it helpful for creating other things.
 Thank you to the people at nltk.org, here is there book:
 
 Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
-https://www.amazon.com/Natural-Language-Processing-Python-Analyzing/dp/0596516495
+See: https://amzn.to/3K0Nuvi
+
+# Troubleshooting
+
+While running update.py, if you see that git is not recognized as a system command then add your git install to PATH
+See: https://bit.ly/3f90jFA for more details
