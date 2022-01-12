@@ -114,7 +114,7 @@
 
     {"tag": "solubility_def",
     "patterns": ["What is solubility?","What is the scientific defenition of solubility","What is the defenition of a solubility?"],
-    "responses": ["Solubility is the concentration of a saturated solution"]},
+    "responses": ["Solubility is concentration represented as g/100cm3"]},
 
     {"tag": "concentration_def",
     "patterns": ["What is concentration?","What is the scientific defenition of concentration?","What is the defenition of a concentration??"],
