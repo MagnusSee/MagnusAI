@@ -134,9 +134,11 @@
 
     {"tag": "formula_for_density",
     "patterns": ["What is the formula for density?","What is the scientific formula for density?","What is the formula for density in science?"],
-    "responses": ["The formula for density is Mass / Volume = Density (You can use this formula to also solve for mass and volume)"]}
+    "responses": ["The formula for density is Mass / Volume = Density (You can use this formula to also solve for mass and volume)"]},
 
-
+    {"tag": "density_def",
+    "patterns": ["What is density?","What is the defenition of density?","What is the scientific defenition of density?"],
+    "responses": ["Density is how many grams of substance is in 1 unit of your choice. (EX: 1mg/cm3)"]}
 
 ]
 }
