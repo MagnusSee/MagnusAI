@@ -122,7 +122,7 @@
 
     {"tag": "difference_between_solubility_and_concentration",
     "patterns": ["What is the difference between solubility and concentration?","What is the differnce between concentration and solubility?","What's the diffrence between concentration and solubility?","What's the difference between solubility and concentration?"],
-    "responses": ["Concentration and solubility are the same thing except solubility is represented as g/100cm3 while concentration is represented as g/1cm3"]},
+    "responses": ["Concentration and solubility are the same thing except solubility is the concentration of a saturated solution represented as g/100cm3 while concentration is how much solute (in grams) is in 1cm3 of solvent and concentration is represented as g/1cm3"]},
 
     {"tag": "units_for_solubility",
     "patterns": ["What are the units for solubility?","What are the units for solubility in science?"],
