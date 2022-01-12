@@ -5,7 +5,7 @@ I hope you find it helpful for creating other things.
 
 # Special Thanks
 
-Thank you to the people at nltk.org, here is there book:
+Thank you to the people at nltk.org, here is their book:
 
 Bird, Steven, Edward Loper and Ewan Klein (2009), Natural Language Processing with Python. O’Reilly Media Inc.
 See: https://amzn.to/3K0Nuvi
