@@ -21,6 +21,8 @@ if system == 'Linux' or system == 'Darwin':
     cmd('cd ~/Desktop && mkdir -p Magnus && cd Magnus && rm -rf MagnusAI && git clone https://github.com/MagnusSee/MagnusAI.git')
     
 if system == 'Windows':
-    cmd('cd C:\\Users\\Lucas Watkins\\Desktop && if exist Magnus rmdir Magnus /Q /S')
-    cmd('cd C:\\Users\\Lucas Watkins\\Desktop && mkdir Magnus')
-    cmd('cd C:\\Users\\Lucas Watkins\\Desktop\\Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
+    user = os.getlogin()
+
+    cmd('cd C:\\Users\\'+ user +'\\Desktop && if exist Magnus rmdir Magnus /Q /S')
+    cmd('cd C:\\Users\\'+ user +'\\Desktop && mkdir Magnus')
+    cmd('cd C:\\Users\\'+ user +'\\Desktop\\Magnus && git clone https://github.com/MagnusSee/MagnusAI.git')
