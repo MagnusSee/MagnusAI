@@ -26,7 +26,7 @@
 
     {"tag": "os_built_on",
     "patterns": ["What operatiing system were you built on?","What os were you built on?","What system were you built on?"],
-    "responses": ["I was built on Windows 7 with Visual Studio Code and I am hosted on Ubuntu"]},
+    "responses": ["I was built on Windows 7 and 10 with Visual Studio Code and I am hosted on Ubuntu"]},
 
     {"tag": "date_created",
     "patterns": ["When were you created?","On what date were you created?","What day were you created on?","On which date were you created?"],
@@ -126,11 +126,15 @@
 
     {"tag": "units_for_solubility",
     "patterns": ["What are the units for solubility?","What are the units for solubility in science?"],
-    "responses": ["The units for solubility are grams (of solute)/100cm3 (of solvent) to get solubility you can take the measurement of concentration and multiply the top and bottom by 100"]}
+    "responses": ["The units for solubility are grams (of solute)/100cm3 (of solvent) to get solubility you can take the measurement of concentration and multiply the top and bottom by 100"]},
 
+    {"tag": "units_for_density",
+    "patterns": ["What are the units for density?","What are the units for density in science?"],
+    "responses": ["The units for density are g/cm3, unlike concentration and solubility these units stand for one substance"]},
 
-
-
+    {"tag": "formula_for_density",
+    "patterns": ["What is the formula for density?","What is the scientific formula for density?","What is the formula for density in science?"],
+    "responses": ["The formula for density is Mass / Volume = Density (You can use this formula to also solve for mass and volume)"]}
 
 
 
